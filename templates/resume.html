@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{param['name']}}</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/resume.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/responsive.css')}}">
+</head>
+
+<body>
+    <div class="head">
+        <div class="name">
+            <h1 class="wrapper">{{param['name']}}</h1>
+            <h4>{{param['tag']}}</h4>
+        </div>
+        <div class="img">
+            <img src="{{url_for('static', filename='images/sr.png')}}" alt="">
+        </div>
+    </div>
+    <div class="info">
+        <div class="left">
+            <div class="contact">
+                {% for value in param['contact'] %}
+                {% set fname = 'images/'+ value[0] %}
+                <div class="con">
+
+                    <img src="{{url_for('static',filename=fname)}}" alt="">
+                    {% if '.com' in value[1] %}
+                    <a href="{{value[1]}}" target="_blank">{{value[2]}}</a>
+                    {% else %}
+                    <p>{{value[1]}}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            <!-- <hr> -->
+            <div class="quality">
+                <div class="skills">
+                    <h1 class="gradient">SKILLS</h1>
+                    <ul>
+                        {% for skill in param['skills'] %}
+                        <li>
+                            <h4>{{skill}}</h4>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <!-- <hr> -->
+                <div class="skills">
+                    <h1 class="gradient">ACHIEVEMENT</h1>
+                    <ul>
+                        {% for achieve in param['achievement'] %}
+                        <li><h4>{{achieve}}</h4></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="right">
+            <div class="profile">
+                <h1 class="gradient">PROFILE</h1>
+                <h4 class="self">
+                    {{param['profile']}}
+                </h4>
+            </div>
+            <hr>
+            <div class="profile">
+                <h1 class="gradient">EDUCATION</h1>
+                {% for edu in param['education'] %}
+                <div class="self">
+                    <h3>{{edu[0]}}</h3>
+                    <h4>{{edu[1]}}</h4>
+                    <i>
+                        <h4>{{edu[2]}}</h4>
+                    </i>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="profile">
+                <h1 class="gradient">PROJECTS</h1>
+                {% for prt in param['projects'] %}
+                <div class="self">
+                    <h3>{{prt[0]}}</h3>
+                    <h4>{{prt[1]}} <a href="{{prt[2]}}" target="_blank">GitHub Link</a></h4>
+                    
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
