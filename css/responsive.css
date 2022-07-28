@@ -1,4 +1,4 @@
-@media(max-height:1370px){
+@media(max-width:912px){
     .left, .right{
         margin-left: 5vw;
     }
