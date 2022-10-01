@@ -5,6 +5,7 @@
     --font2 : 'Oswald', sans-serif;
 }
 :root{
+    --color0 : #47c1fe;
     --color1 : #bbfffe;
     --color2 : cyan;
     --color3 : rgb(40, 40, 40);
@@ -61,6 +62,10 @@
 .left{
     margin-left: 15vw;
 }
+.border{
+    border: 1px solid;
+    padding-left: 8px;
+}
 .contact{
     padding: 5vh;
 }
@@ -114,12 +119,13 @@ h1{
 }    
 
 h4{
-    margin: 2vh 0;
-    font-family: var(--font1);
+    /* margin: 2vh 0; */
+    font-family: var(--font);
+    color: var(--color2);
 }
 h3{
     font-family: var(--font1);
-    color: var(--color2);
+    color: var(--color0);
 }
 hr{
     border: 2px solid black;
@@ -137,7 +143,7 @@ hr{
 }
   
   @-webkit-keyframes rainbow {
-      0%{background-position:0% 82%}
+    0%{background-position:0% 82%}
       50%{background-position:100% 19%}
       100%{background-position:0% 82%}
   }
@@ -148,6 +154,11 @@ hr{
       50%{background-position:100% 19%}
       100%{background-position:0% 82%}
   }
+  .line { 
+    
+    background: linear-gradient(120deg, #fe4f34, #fe5729, #e8b71d, #e3e81d, #1de840, #1ddde8, #786ffc, #f068fc, #e936fa);
+  
+}
   footer{
     background-color: black;
     height: 5vh;

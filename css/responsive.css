@@ -1,11 +1,12 @@
-@media(max-width:900px){
+@media(max-width:912px){
     .left{
-        margin-left: 7vw;
+        margin-left: 0vw;
     }
     .right{
-        margin-right: 7vw;
+        margin-right: 0vw;
     }
 }
+
 @media (max-width:700px){
     .img img {
         width: 20vh;

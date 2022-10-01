@@ -1,0 +1,81 @@
+{
+    "name": "SHYANUKANT RATHI",
+    "tag": "CS ENTHUSAIAST, LEARNER",
+    "profile_photo" : "images/photo.png", 
+    "gmail": ["mailto:rathishyanukant@gmail.com", "rathishyanukant@gmail.com"],
+    "address": "Mohalla - Markpuriya Behsuma, Mawana, Meerut 250404",
+    "linkedin": ["https://www.linkedin.com/in/shyanukant/","shyanukant"],
+    "twitter": ["https://www.twitter.com/shyanukant","shyanukant"],
+    "skills": [
+        "Coding - Python",
+        "Database - MySQL",
+        "Web Design - HTML, CSS, Flask, Wordpress",
+        "Design Thinking - Photshop",
+        "Git ans GitHub",
+        "Microsoft Office Suite"
+    ],
+    "achievements": [
+        "Google Digital Marketing Certificate",
+        "Award and Certificate in Scout Camp",
+        "First Award in General Knowledge in District",
+        "Award in Running, long jump, and other extracurricular activities"
+    ],
+    "profile": "Passionate about upcoming technology and like to learn, research, and explore. Intend to build a career with a leading corporation in a stimulating environment that will help me to explore myself fully and realize my potential.",
+
+    "experiences": [
+        [
+            "DATA ANALYTICS AND VISUALIZATION VIRTUAL EXPERIENCE",
+            " Accenture Virtual Training Program",
+            "In this program, I learned data visualization using the Pandas python library, it gives me a real-world task with data in a CSV file and I would read it, analyze it, and then submit it."
+        ],
+        [
+            "DEVELOPER VIRTUAL EXPERIENCE PROGRAM",
+            " Accenture Virtual Training Program",
+            "In this program, I learned software structure and basic machine learning, giving me coding tasks like testing and debugging in JavaScript and Python languages."
+        ],
+        [
+            "DATA ANALYTICS INTERNSHIP",
+            " Sky News Global  l Nabha Road, Patiala | Punjab",
+            "The channel conducted online and offline surveys, and I am part of an offline survey team. My job was to read that data and extract election data from it, such as Which party dominates and what percentage of people of which caste is supporting whom.  I had to generate reports by extracting insights from the data from the surveys."
+        ]
+    ],
+    "educations": [
+        [
+            "MASTER OF SCIENCE IN COMPUTER APPLICATION",
+            "Swami Vivekanand Subharti University, Meerut",
+            "2019-2021"
+        ],
+        [
+            "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
+            "IIMT Engineering College, Meerut",
+            "2016-2019"
+        ],
+        [
+            "INTERMEDIATE",
+            "Krishak Inter College, Mawana",
+            "2016"
+        ],
+        [
+            "HIGH SCHOOL",
+            "Nav Jeevan Inter College, Behsuma",
+            "2014"
+        ]
+    ],
+    "projects": [
+        [
+            "PERSHONAL PORTFOLIO",
+            "Created in Python Flask Framework, HTML, CSS, JavaScript",
+            "https://github.com/Shyanukant/Portfolio"
+        ],
+        [
+            "AI DETECTOR",
+            "Face - Smile -Face and Car Detector in Python using OpenCV",
+            "https://github.com/Shyanukant/Detection"
+        ],
+        [
+            "DECISION REVIEW SYSTEM",
+            "Cricket DRS in Python Tkinter GUI",
+            "https://github.com/Shyanukant/DRS-Project"
+        ]
+    ]
+}
