@@ -1,20 +1,25 @@
 {
     "name": "SHYANUKANT RATHI",
-    "tag": "CS ENTHUSAIAST, LEARNER",
-    "profile_photo" : "images/photo.png", 
+    "tag": "CS ENTHUSIAST, LEARNER",
+    "profile_photo": "images/photo.png", 
     "gmail": ["mailto:rathishyanukant@gmail.com", "rathishyanukant@gmail.com"],
     "address": "Mohalla - Markpuriya Behsuma, Mawana, Meerut 250404",
     "linkedin": ["https://www.linkedin.com/in/shyanukant/","shyanukant"],
     "twitter": ["https://www.twitter.com/shyanukant","shyanukant"],
     "skills": [
         "Coding - Python",
-        "Database - MySQL",
-        "Web Design - HTML, CSS, Flask, Wordpress",
+        "Database - MySQL, PostgreSQL, MongoDB",
+        "Data Science - Numpy, Pandas, Scikit Learn",
+        "Web Design - HTML, CSS, JavaScript, Flask, Django, bootstrap, react.js",
+        "API - Django Rest Framework",
         "Design Thinking - Photoshop",
-        "Git ans GitHub",
-        "Microsoft Office Suite"
+        "Git and GitHub",
+        "Blockchain",
+        "Microsoft Office Suite, ChatGPT"
     ],
     "achievements": [
+        "AWS Machine Learning Certificate Udacity",
+        "Javascript Certificate One Month",
         "Google Digital Marketing Certificate",
         "Award and Certificate in Scout Camp",
         "First Award in General Knowledge in District",
@@ -36,6 +41,11 @@
         
     ],
     "educations": [
+        [
+            "MASTER OF SCIENCE IN COMPUTER SCIENCE",
+            "Directorate of Distance Education, Swami Vivekanand Subharti University.",
+            "2019-2021"
+        ],
         
         [
             "BACHELOR OF SCIENCE IN COMPUTER SCIENCE",
@@ -55,7 +65,22 @@
     ],
     "projects": [
         [
-            "PERSHONAL PORTFOLIO",
+            "Tweet App",
+            "Squib - A minimal tweet app developed using Django, Django Rest Framework, Reactjs, tailwind, bootstrap, and Heroku. ",
+            "https://github.com/Shyanukant/squib"
+        ],
+        [
+            "AI Chatbot ",
+            "The project leverages the OpenAI ChatGPT model to provide a conversational experience with a medical expert. It utilizes the Gradio library to create a user-friendly web interface",
+            "https://github.com/Shyanukant/daily-doc"
+        ],
+        [
+            "Blockchain Project",
+            "Developed a basic ECDSA NODE ( Elliptic Curve Digital Signature Algorithms) model using javascript, React, and Ethereum cryptography library.",
+            "https://github.com/Shyanukant/AU-ecdsa-node"
+        ],
+        [
+            "PERSONAL PORTFOLIO",
             "Created in Python Flask Framework, HTML, CSS, JavaScript",
             "https://github.com/Shyanukant/Portfolio"
         ],
